@@ -1,0 +1,39 @@
+body{
+	background-color: red;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.slidershow-container{
+	max-width: 1000px;
+/*	position: relative;*/
+	margin: auto;
+	display: flex;
+	flex-direction:row ;
+/*	background-color: red;*/
+}
+.mySlides{
+/*	text-align: center;*/
+	max-height: 700px;
+}
+.dot{
+	cursor: pointer;
+	height: 15px;
+	width: 17px;
+	margin: 47px;
+	background-color:black;
+	border-radius: 300px;
+	transition: background-color:black;
+}
+.fade{
+	-webkit-animation-name: fade;
+	-webkit-animation-duration:1s;
+	animation-name:fade;
+	animation-duration:1s;
+}
+
+
+
+
